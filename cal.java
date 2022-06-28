@@ -30,7 +30,7 @@ class calculator
 	 void input()
 	 {
 		 Scanner scan =new Scanner(System.in);
-		 System.out.print("enter two no's:");
+		 System.out.println("enter two no's:");
 		 a=scan.nextInt();
 		 b=scan.nextInt();
 	 }
@@ -42,7 +42,7 @@ class calculator
 	 {
 		 Scanner scan =new Scanner(System.in);
 		 System.out.println("enter choices");
-		 System.out.println("press\n 1.add\n2.sub\n3.div\n4.mult");
+		 System.out.println("press\n1.add\n2.sub\n3.div\n4.mult");
 		 choice=scan.nextInt();
 		 switch(choice)
 		 {
